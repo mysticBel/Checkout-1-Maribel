@@ -1,0 +1,49 @@
+PARTE 1
+$ git init
+$ git remote add origin https://github.com/mysticBel/Checkout-1-Maribel.git
+
+
+PARTE 2
+$ touch main.js
+$ touch index.html
+$ git add .
+$ git commit -m "commit 01 de Maribel Maza"
+$ git push -u origin master
+
+PARTE 3
+$ git checkout -b feature
+$ mkdir Hardware
+$ cd Hardware/
+$ touch resumen.txt
+$ cd ../
+$ mkdir Software
+$ cd Software/
+$ touch resumen.txt
+$ cd ../
+$ mkdir SeguridadInformatica
+$ cd Software/
+$ touch resumen.txt
+$ cd ../
+$ git add .
+$ git commit -m "commit 02 de Maribel Maza"
+$ git push origin feature
+
+
+PARTE 4
+$ git checkout master
+$ mv main.js resumenHardware.txt
+$ mv index.html resumenSoftware.txt
+$ echo "Github Desktop , Excel, PowerBi" >> resumenSoftware.txt
+$ cat resumenSoftware.txt  --> lista Github Desktop , Excel, PowerBi
+$ echo -e "1. Memoria RAM \n2. Memoria ROM \n3. Memoria Cache" >> resumenHardware.txt
+$ cat resumenHardware.txt
+$ git add .
+$ git commit -m "commit 03 de Maribel Maza"
+$ git push origin master
+
+
+PARTE 5
+$ touch comandos.txt
+
+
+
